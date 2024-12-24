@@ -107,3 +107,7 @@ a{
   border-color: var(--light-red);
 }
 
+/* banner */
+.carousel-indicators{
+  bottom: -50px;
+}
