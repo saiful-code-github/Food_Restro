@@ -250,7 +250,7 @@
     overflow: hidden;
  }
  .brand_section .brand_img{
-     width: 180px;
+     width: 100%;  
      height: auto;
      cursor: pointer;
  }

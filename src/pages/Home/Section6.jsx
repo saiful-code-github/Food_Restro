@@ -89,4 +89,4 @@ function Section6() {
     )
 }
 
-export default Section6
+export default Section6;

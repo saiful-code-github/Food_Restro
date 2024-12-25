@@ -10,7 +10,7 @@ import Section6 from './Section6';
 import Section7 from './Section7';
 
 function Home() {
-  return (
+  return (   
     <>
       <Layout>
           {/* Home Section Hero Banner */}

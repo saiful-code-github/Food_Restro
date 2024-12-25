@@ -20,7 +20,10 @@ function Footer() {
 
   useEffect(() =>{
     window.addEventListener("scroll", listenToScroll);
-  })
+    return () => (
+      window.removeEventListener("scroll", listenToScroll)
+  )
+  },[])
   return (
     <>
      <footer>
@@ -131,4 +134,4 @@ function Footer() {
    )
 }
 
-export default Footer
+export default Footer;

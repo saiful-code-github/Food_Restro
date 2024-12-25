@@ -1,4 +1,4 @@
-import React, {useState}  from 'react'
+import React, {useState,useEffect}  from 'react'
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import "../../styles/HeaderStyle.css";
 import { Link } from 'react-router-dom';
@@ -11,9 +11,13 @@ function Header() {
     const scrollValue = document?.documentElement?.scrollTop;
     scrollValue > 100 ? setNav (true) : setNav(false);
   }
-  
-  window.addEventListener("scroll" , changeValueOnScroll);
-  return (
+  useEffect(() =>{
+    window.addEventListener("scroll" , changeValueOnScroll);
+    return () => (
+      window.removeEventListener("scroll", changeValueOnScroll)
+    )
+  },[])
+   return (
     <>
     <header>
     <Navbar collapseOnSelect expand="lg" className={` ${nav === true ? "sticky" : ""}`}>
