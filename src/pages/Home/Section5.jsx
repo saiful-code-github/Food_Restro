@@ -70,6 +70,7 @@ function Section5() {
                                           </div>
                                     </div>
                                 </Carousel.Caption>
+                                {/* second row carousel slider */}
                             </Carousel.Item>
 
                             <Carousel.Item>
@@ -77,22 +78,22 @@ function Section5() {
                               <Carousel.Caption>
                                   <div className='d-flex align-items-center justify-content-between'>
                                        <div className='brand_img'>
-                                            <img src={Brand3} className="img-fluid" alt="brand-3" />
+                                            <img src={Brand3} className="img-fluid w-full" alt="brand-3" />
                                         </div>
                                         <div className='brand_img'>
-                                            <img src={Brand4} className="img-fluid" alt="brand-4" />
+                                            <img src={Brand4} className="img-fluid w-full" alt="brand-4" />
                                         </div>
                                         <div className='brand_img'>
-                                            <img src={Brand5} className="img-fluid" alt="brand-5" />
+                                            <img src={Brand5} className="img-fluid w-full" alt="brand-5" />
                                         </div>
                                         <div className='brand_img'>
-                                            <img src={Brand6} className="img-fluid" alt="brand-6" />
+                                            <img src={Brand6} className="img-fluid w-full" alt="brand-6" />
                                         </div>
                                         <div className='brand_img'>
-                                            <img src={Brand7} className="img-fluid" alt="brand-7" />
+                                            <img src={Brand7} className="img-fluid w-full" alt="brand-7" />
                                         </div>
                                         <div className='brand_img'>
-                                            <img src={Brand8} className="img-fluid" alt="brand-8" />
+                                            <img src={Brand8} className="img-fluid w-full" alt="brand-8" />
                                         </div>
                                   </div>
                               </Carousel.Caption>
