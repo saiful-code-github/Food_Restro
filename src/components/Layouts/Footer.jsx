@@ -17,7 +17,6 @@ function Footer() {
 
     windowScroll > heightToHidden ? setIsVisible(true) : setIsVisible(false);
   }
-
   useEffect(() =>{
     window.addEventListener("scroll", listenToScroll);
     return () => (

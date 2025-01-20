@@ -19,17 +19,19 @@ function Section5() {
                 <Container>
                     <Row className='align-items-center'>
                         <Col lg={6} className='text-center text-lg-start mb-5 mb-lg-0'>
-                            <h4>Download mobile App and</h4>
+                            <h4 className='text-[2.3rem]'>Download mobile App and</h4>
                             <h2>save up to 20%</h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quam possimus non minima quaerat animi accusamus voluptates ea asperiores perspiciatis.
                             </p>
+                            <div className='flex justify-start'>
                             <Link to="/">
-                                <img src={StoreIOS} alt="IOS" className='img-fluid store me-3' />
+                                <img src={StoreIOS} alt="IOS" className=' me-3 w-[80%]'/>
                             </Link>
                             <Link to="/">
-                                <img src={Android} alt="Andriod" className='img-fluid store me-3' />
+                                <img src={Android} alt="Andriod" className=' me-3 w-[80%]' />
                             </Link>
+                            </div>
                         </Col>
                         <Col lg={6}>
                             <img src={DownloadApp} alt="e-shop" className='img-fluid e_shop' />

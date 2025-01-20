@@ -21,7 +21,7 @@ function Section1() {
               </Col>
               <Col lg={5}>
                  <div className='hero_text text-center'>
-                      <h1 className='text-white'>New Burger</h1>
+                      <h1 className='text-white text-[4rem] md:text-[7rem] lg:text-[7rem]'>New Burger</h1>
                       <h2 className='text-white'>With Onion</h2>
                       <p className='text-white pt-2 pb-4'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur assumenda corporis esse hic cumque corrupti quia adipisci voluptatum voluptates? Veniam dicta hic dignissimos culpa at?
