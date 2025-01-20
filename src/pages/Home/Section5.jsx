@@ -70,7 +70,6 @@ function Section5() {
                                           </div>
                                     </div>
                                 </Carousel.Caption>
-                                {/* second row carousel slider */}
                             </Carousel.Item>
 
                             <Carousel.Item>
