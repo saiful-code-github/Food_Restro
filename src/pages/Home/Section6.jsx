@@ -49,7 +49,6 @@ function Section6() {
         }
         return stars;
     };
-
     return (
         <section className="blog_section">
             <Container>
@@ -80,5 +79,4 @@ function Section6() {
         </section>
     );
 }
-
 export default Section6;

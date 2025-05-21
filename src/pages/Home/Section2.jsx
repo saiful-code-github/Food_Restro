@@ -27,7 +27,7 @@ const mocData = [
 function Section2() {
   return (
     <>
-    <section className='about_section'>
+    <section className='about_section' id="aboutsection">
           <Container>
                 <Row>
                    <Col lg={{span:8, offset:2}} className='text-center'>

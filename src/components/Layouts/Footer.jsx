@@ -10,7 +10,6 @@ function Footer() {
       behavior: "smooth",
     })
   };
-
   const listenToScroll = () =>{
     let heightToHidden = 250;
     const windowScroll = document.body.scrollTop || document.documentElement.scrollTop;
